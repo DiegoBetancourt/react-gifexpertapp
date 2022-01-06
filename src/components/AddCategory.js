@@ -26,6 +26,7 @@ export default function AddCategory({setCategories}) {
         
             <input
                 type='text'
+                placeholder='Busca tus Gifs...'
                 value={inputValue}
                 onChange={handleInputChange}
             />
